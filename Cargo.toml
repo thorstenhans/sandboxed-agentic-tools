@@ -1,0 +1,21 @@
+[package]
+name = "sandboxed-agentic-tools"
+authors = ["Thorsten Hans <thorsten.hans@gmail.com>"]
+description = ""
+version = "0.1.0"
+rust-version = "1.93"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+anyhow = "1"
+mcp-types = "0.1.1"
+regex = "1.10"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sha2 = "0.10"
+spin-sdk = "7.0.0"
+
+[workspace]
